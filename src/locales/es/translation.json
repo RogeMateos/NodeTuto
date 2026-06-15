@@ -1,0 +1,41 @@
+{
+  "common": {
+    "home": "Inicio",
+    "tutorials": "Tutoriales",
+    "search": "Buscar",
+    "favorites": "Favoritos",
+    "language": "Idioma",
+    "theme": "Tema",
+    "dark": "Oscuro",
+    "light": "Claro",
+    "loading": "Cargando...",
+    "error": "Error",
+    "notFound": "No encontrado"
+  },
+  "navigation": {
+    "previousLesson": "Lección anterior",
+    "nextLesson": "Siguiente lección",
+    "backToTutorials": "Volver a tutoriales",
+    "seeAll": "Ver todos"
+  },
+  "lesson": {
+    "completed": "Completado",
+    "markAsComplete": "Marcar como completado",
+    "addToFavorites": "Añadir a favoritos",
+    "removeFromFavorites": "Eliminar de favoritos",
+    "resources": "Recursos"
+  },
+  "search": {
+    "placeholder": "Busca un tutorial...",
+    "noResults": "No encontramos tutoriales",
+    "resultsFor": "Resultados para"
+  },
+  "home": {
+    "title": "Aprende Node.js",
+    "subtitle": "Tutoriales modernos y bien estructurados",
+    "startLearning": "Empezar",
+    "viewAll": "Ver todos los tutoriales",
+    "lessonsCompleted": "lecciones completadas",
+    "yourFavorites": "Tus favoritos"
+  }
+}

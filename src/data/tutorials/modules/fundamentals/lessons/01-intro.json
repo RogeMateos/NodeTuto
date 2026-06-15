@@ -1,0 +1,63 @@
+{
+  "id": "01-intro",
+  "type": "lesson",
+  "order": 1,
+  "es": {
+    "title": "Qué es Node.js y para qué se utiliza",
+    "sections": [
+      {
+        "type": "introduction",
+        "content": "<h2>¿Qué es realmente Node.js?</h2><p>En esta clase empezamos desde el principio. Sin demasiada historia ni contexto innecesario, vamos a entender qué es Node.js, por qué existe y por qué es tan importante dentro del ecosistema JavaScript.</p><p>Node.js es un <strong>entorno de ejecución para JavaScript fuera del navegador</strong>.</p><p><strong>Importante:</strong> Node.js no es un nuevo lenguaje, es el mismo JavaScript que ya conocés, pero ejecutándose en un lugar diferente.</p><p>Esto es clave:</p><ul><li>❌ No es un lenguaje.</li><li>❌ No es una librería.</li><li>❌ No es un framework.</li><li>✅ Es un entorno de ejecución.</li></ul><p>El navegador ya puede ejecutar JavaScript gracias a su motor interno. Node.js lo que hace es permitir ejecutar JavaScript fuera del navegador, directamente en el sistema operativo.</p>"
+      },
+      {
+        "type": "explanation",
+        "content": "<h2>Qué hay por debajo: el motor V8</h2><p>Node.js utiliza el motor <strong>V8</strong>, el mismo que usa Google Chrome para ejecutar JavaScript.</p><p>Gracias a esto:</p><ul><li>JavaScript se ejecuta de forma extremadamente eficiente.</li><li>El rendimiento es excelente para tareas de entrada y salida (I/O).</li><li>Podemos reutilizar el mismo lenguaje en frontend y backend.</li></ul><h2>Un modelo asíncrono y orientado a eventos</h2><p>Una de las claves de Node.js es que es <strong>asíncrono</strong> y está <strong>orientado a eventos</strong>.</p><p>Este modelo permite que Node.js sea capaz de manejar miles de conexiones simultáneas sin bloquearse, a diferencia de otros entornos tradicionales.</p><p>Esto lo hace ideal para operaciones como:</p><ul><li><strong>Acceso a red:</strong> Peticiones HTTP, WebSockets.</li><li><strong>Lectura y escritura de archivos:</strong> Manipulación del sistema de archivos.</li><li><strong>Bases de datos:</strong> Consultas rápidas y concurrentes.</li><li><strong>APIs y servidores:</strong> Procesamiento ligero de muchas peticiones.</li></ul>"
+      },
+      {
+        "type": "examples",
+        "content": "<h2>Node.js no es el navegador</h2><p>Es fundamental entender que, aunque el lenguaje es el mismo, las herramientas cambian:</p><table><thead><tr><th>En el Navegador trabajamos con:</th><th>En Node.js trabajamos con:</th></tr></thead><tbody><tr><td>El DOM (HTML/CSS)</td><td>El Sistema Operativo</td></tr><tr><td>Eventos de interfaz (clicks, scroll)</td><td>El Sistema de Archivos</td></tr><tr><td>La ventana (window)</td><td>La Red y Procesos</td></tr></tbody></table><p>En Node.js no hay DOM. No hay ventana. <strong>Hay sistema.</strong></p>"
+      },
+      {
+        "type": "best-practices",
+        "content": "<h2>Por qué Node.js es tan importante</h2><p>Node.js está en el centro del ecosistema JavaScript, incluso aunque no te dediques al backend.</p><p>Lo utilizan a diario:</p><ul><li>Equipos frontend (React, Vue, Astro).</li><li>Herramientas de desarrollo como Vite o Webpack.</li><li>Runners de testing (Jest, Vitest).</li><li>Bundlers y servidores de desarrollo.</li></ul><p>Si estás haciendo desarrollo web moderno, ya estás usando Node.js, aunque sea solo en tus herramientas de desarrollo.</p><h2>Casos de uso principales</h2><p>Node.js brilla especialmente en tres escenarios:</p><ul><li><strong>Servidores y APIs:</strong> Microservicios, APIs REST y comunicación en tiempo real.</li><li><strong>Línea de comandos (CLI):</strong> Herramientas de terminal y utilidades para desarrolladores.</li><li><strong>Scripts y automatizaciones:</strong> Procesamiento de archivos y pipelines de CI/CD.</li></ul>"
+      },
+      {
+        "type": "summary",
+        "content": "<h2>Conclusión</h2><p>Node.js ha unificado el desarrollo web permitiendo que un solo lenguaje domine toda la aplicación. Es una pieza fundamental, potente y versátil que todo desarrollador JavaScript debe conocer.</p><p>En la siguiente clase empezaremos a ver ejemplos prácticos y construiremos nuestra primera API.</p>"
+      },
+      {
+        "type": "resources",
+        "content": "<h2>Recursos adicionales</h2><a href=\"https://www.jscamp.dev/backend-con-nodejs-y-express/que-es-nodejs-y-casos-de-uso\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;align-items:center;gap:16px;padding:16px 20px;border:1px solid var(--border-default);border-radius:14px;text-decoration:none;background:var(--bg-card);box-shadow:var(--shadow-sm);transition:all 0.2s ease;margin-top:12px;\" onmouseover=\"this.style.borderColor='#339933';this.style.boxShadow='0 4px 16px rgba(51,153,51,0.15)'\" onmouseout=\"this.style.borderColor='var(--border-default)';this.style.boxShadow='var(--shadow-sm)'\"><div style=\"width:44px;height:44px;border-radius:12px;background:linear-gradient(135deg,#339933,#4caf4c);display:flex;align-items:center;justify-content:center;flex-shrink:0;\"><svg width=\"20\" height=\"20\" fill=\"none\" stroke=\"white\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" viewBox=\"0 0 24 24\"><path d=\"M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20\"/></svg></div><div style=\"flex:1;min-width:0;\"><div style=\"font-weight:600;font-size:14px;color:var(--text-primary);line-height:1.3;font-family:Manrope,sans-serif;\">Qué es Node.js y casos de uso</div><div style=\"font-size:12px;color:var(--text-tertiary);margin-top:4px;font-family:Manrope,sans-serif;\">jscamp.dev</div></div><svg width=\"16\" height=\"16\" fill=\"none\" stroke=\"var(--text-tertiary)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" viewBox=\"0 0 24 24\" style=\"flex-shrink:0;\"><path d=\"M7 17L17 7\"/><path d=\"M7 7h10v10\"/></svg></a>"
+      }
+    ]
+  },
+  "en": {
+    "title": "What is Node.js and what is it used for",
+    "sections": [
+      {
+        "type": "introduction",
+        "content": "<h2>What is Node.js really?</h2><p>In this lesson we start from the beginning. Without too much history or unnecessary context, we're going to understand what Node.js is, why it exists and why it's so important within the JavaScript ecosystem.</p><p>Node.js is a <strong>JavaScript runtime environment outside the browser</strong>.</p><p><strong>Important:</strong> Node.js is not a new language — it's the same JavaScript you already know, but running in a different place.</p><p>This is key:</p><ul><li>❌ It's not a language.</li><li>❌ It's not a library.</li><li>❌ It's not a framework.</li><li>✅ It's a runtime environment.</li></ul><p>The browser can already run JavaScript thanks to its internal engine. What Node.js does is allow JavaScript to run outside the browser, directly on the operating system.</p>"
+      },
+      {
+        "type": "explanation",
+        "content": "<h2>What's underneath: the V8 engine</h2><p>Node.js uses the <strong>V8</strong> engine, the same one Google Chrome uses to run JavaScript.</p><p>Thanks to this:</p><ul><li>JavaScript runs extremely efficiently.</li><li>Performance is excellent for input/output (I/O) tasks.</li><li>We can reuse the same language on both frontend and backend.</li></ul><h2>An asynchronous, event-driven model</h2><p>One of the key features of Node.js is that it is <strong>asynchronous</strong> and <strong>event-driven</strong>.</p><p>This model allows Node.js to handle thousands of simultaneous connections without blocking, unlike traditional server environments.</p><p>This makes it ideal for operations like:</p><ul><li><strong>Network access:</strong> HTTP requests, WebSockets.</li><li><strong>File reading and writing:</strong> Filesystem manipulation.</li><li><strong>Databases:</strong> Fast, concurrent queries.</li><li><strong>APIs and servers:</strong> Lightweight processing of many requests.</li></ul>"
+      },
+      {
+        "type": "examples",
+        "content": "<h2>Node.js is not the browser</h2><p>It's essential to understand that, even though the language is the same, the tools change:</p><table><thead><tr><th>In the Browser we work with:</th><th>In Node.js we work with:</th></tr></thead><tbody><tr><td>The DOM (HTML/CSS)</td><td>The Operating System</td></tr><tr><td>Interface events (clicks, scroll)</td><td>The File System</td></tr><tr><td>The window object</td><td>The Network and Processes</td></tr></tbody></table><p>In Node.js there is no DOM. No window. <strong>There is system.</strong></p>"
+      },
+      {
+        "type": "best-practices",
+        "content": "<h2>Why Node.js is so important</h2><p>Node.js is at the center of the JavaScript ecosystem, even if you don't focus on backend development.</p><p>It's used daily by:</p><ul><li>Frontend teams (React, Vue, Astro).</li><li>Development tools like Vite or Webpack.</li><li>Testing runners (Jest, Vitest).</li><li>Bundlers and dev servers.</li></ul><p>If you're doing modern web development, you're already using Node.js — even if it's only in your development tools.</p><h2>Main use cases</h2><p>Node.js shines especially in three scenarios:</p><ul><li><strong>Servers and APIs:</strong> Microservices, REST APIs and real-time communication.</li><li><strong>Command line (CLI):</strong> Terminal tools and developer utilities.</li><li><strong>Scripts and automations:</strong> File processing and CI/CD pipelines.</li></ul>"
+      },
+      {
+        "type": "summary",
+        "content": "<h2>Conclusion</h2><p>Node.js has unified web development by allowing a single language to dominate the entire application. It's a fundamental, powerful and versatile piece that every JavaScript developer needs to know.</p><p>In the next lesson we'll start looking at practical examples and build our first API.</p>"
+      },
+      {
+        "type": "resources",
+        "content": "<h2>Additional resources</h2><a href=\"https://www.jscamp.dev/backend-con-nodejs-y-express/que-es-nodejs-y-casos-de-uso\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;align-items:center;gap:16px;padding:16px 20px;border:1px solid var(--border-default);border-radius:14px;text-decoration:none;background:var(--bg-card);box-shadow:var(--shadow-sm);transition:all 0.2s ease;margin-top:12px;\" onmouseover=\"this.style.borderColor='#339933';this.style.boxShadow='0 4px 16px rgba(51,153,51,0.15)'\" onmouseout=\"this.style.borderColor='var(--border-default)';this.style.boxShadow='var(--shadow-sm)'\"><div style=\"width:44px;height:44px;border-radius:12px;background:linear-gradient(135deg,#339933,#4caf4c);display:flex;align-items:center;justify-content:center;flex-shrink:0;\"><svg width=\"20\" height=\"20\" fill=\"none\" stroke=\"white\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" viewBox=\"0 0 24 24\"><path d=\"M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20\"/></svg></div><div style=\"flex:1;min-width:0;\"><div style=\"font-weight:600;font-size:14px;color:var(--text-primary);line-height:1.3;font-family:Manrope,sans-serif;\">What is Node.js and use cases</div><div style=\"font-size:12px;color:var(--text-tertiary);margin-top:4px;font-family:Manrope,sans-serif;\">jscamp.dev</div></div><svg width=\"16\" height=\"16\" fill=\"none\" stroke=\"var(--text-tertiary)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" viewBox=\"0 0 24 24\" style=\"flex-shrink:0;\"><path d=\"M7 17L17 7\"/><path d=\"M7 7h10v10\"/></svg></a>"
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "modules": [
+    {
+      "id": "fundamentals",
+      "order": 1,
+      "es": {
+        "title": "Fundamentos de Node.js",
+        "description": "Aprende lo básico de Node.js"
+      },
+      "en": {
+        "title": "Node.js Fundamentals",
+        "description": "Learn the basics of Node.js"
+      }
+    },
+    {
+      "id": "backend",
+      "order": 2,
+      "es": {
+        "title": "Backend con Node.js y Express",
+        "description": "Crea servidores web profesionales"
+      },
+      "en": {
+        "title": "Backend with Node.js and Express",
+        "description": "Build professional web servers"
+      }
+    }
+  ]
+}

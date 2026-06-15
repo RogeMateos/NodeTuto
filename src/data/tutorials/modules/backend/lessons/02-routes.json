@@ -1,0 +1,39 @@
+{
+  "id": "02-routes",
+  "type": "lesson",
+  "order": 2,
+  "es": {
+    "title": "Rutas en Express",
+    "sections": [
+      {
+        "type": "introduction",
+        "content": "<h2>Rutas</h2><p>Las rutas son el corazón de cualquier aplicación Express. Definen qué código se ejecuta cuando un usuario hace una solicitud a una URL específica.</p>"
+      },
+      {
+        "type": "explanation",
+        "content": "<h2>¿Cómo funcionan?</h2><p>Express compara la URL de la solicitud con las rutas que hayas definido y ejecuta el código correspondiente.</p>"
+      },
+      {
+        "type": "summary",
+        "content": "<h2>Resumen</h2><p>Las rutas son la base de cualquier aplicación web con Express.</p>"
+      }
+    ]
+  },
+  "en": {
+    "title": "Routes in Express",
+    "sections": [
+      {
+        "type": "introduction",
+        "content": "<h2>Routes</h2><p>Routes are the heart of any Express application. They define what code runs when a user makes a request to a specific URL.</p>"
+      },
+      {
+        "type": "explanation",
+        "content": "<h2>How do they work?</h2><p>Express compares the request URL with the routes you've defined and executes the corresponding code.</p>"
+      },
+      {
+        "type": "summary",
+        "content": "<h2>Summary</h2><p>Routes are the foundation of any web application with Express.</p>"
+      }
+    ]
+  }
+}

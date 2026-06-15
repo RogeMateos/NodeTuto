@@ -1,0 +1,39 @@
+{
+  "id": "01-express",
+  "type": "lesson",
+  "order": 1,
+  "es": {
+    "title": "Introducción a Express",
+    "sections": [
+      {
+        "type": "introduction",
+        "content": "<h2>¿Qué es Express?</h2><p>Express es un framework web mínimo y flexible para Node.js que proporciona un conjunto sólido de características para aplicaciones web.</p>"
+      },
+      {
+        "type": "learning-goals",
+        "content": "<h2>¿Qué aprenderás?</h2><ul><li>Qué es Express y por qué usarlo</li><li>Cómo crear un servidor básico</li><li>Cómo manejar rutas</li></ul>"
+      },
+      {
+        "type": "summary",
+        "content": "<h2>Resumen</h2><p>Express es el framework ideal para construir APIs y servidores web en Node.js.</p>"
+      }
+    ]
+  },
+  "en": {
+    "title": "Introduction to Express",
+    "sections": [
+      {
+        "type": "introduction",
+        "content": "<h2>What is Express?</h2><p>Express is a minimal and flexible web framework for Node.js that provides a robust set of features for web applications.</p>"
+      },
+      {
+        "type": "learning-goals",
+        "content": "<h2>What will you learn?</h2><ul><li>What Express is and why use it</li><li>How to create a basic server</li><li>How to handle routes</li></ul>"
+      },
+      {
+        "type": "summary",
+        "content": "<h2>Summary</h2><p>Express is the ideal framework for building APIs and web servers in Node.js.</p>"
+      }
+    ]
+  }
+}
