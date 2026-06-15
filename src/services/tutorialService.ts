@@ -7,7 +7,7 @@ export const tutorialService = {
   loadModules: async (): Promise<Module[]> => {
     try {
       const response = await import('@/data/tutorials/modules.json');
-      const modules = response.modules || [];
+      const modules: Module[] = response.modules ?? [];
 
       // Load lessons for each module
       for (const module of modules) {
