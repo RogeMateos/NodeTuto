@@ -1,13 +1,13 @@
 // src/services/tutorialService.ts
 
-import { Module, Lesson } from '@/types/index';
+import { Module, Lesson, ModulesData } from '@/types/index';
 
 export const tutorialService = {
   // Load all modules metadata with lessons
   loadModules: async (): Promise<Module[]> => {
     try {
-      const response = await import('@/data/tutorials/modules.json');
-      const modules: Module[] = response.modules ?? [];
+      const data = await import('@/data/tutorials/modules.json');
+      const modules: Module[] = (data as unknown as ModulesData).modules ?? [];
 
       // Load lessons for each module
       for (const module of modules) {
